@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="serialadder_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="serialadder_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="200000000fs"></ZoomStartTime>
+      <ZoomEndTime time="1200000001fs"></ZoomEndTime>
+      <Cursor1Time time="248157000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/serialadder_tb/DATA" type="array">
+      <obj_property name="ElementShortName">DATA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/loadA" type="logic">
+      <obj_property name="ElementShortName">loadA</obj_property>
+      <obj_property name="ObjectShortName">loadA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/loadB" type="logic">
+      <obj_property name="ElementShortName">loadB</obj_property>
+      <obj_property name="ObjectShortName">loadB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/fast_clk" type="logic">
+      <obj_property name="ElementShortName">fast_clk</obj_property>
+      <obj_property name="ObjectShortName">fast_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/slow_clk" type="logic">
+      <obj_property name="ElementShortName">slow_clk</obj_property>
+      <obj_property name="ObjectShortName">slow_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/cout_f" type="logic">
+      <obj_property name="ElementShortName">cout_f</obj_property>
+      <obj_property name="ObjectShortName">cout_f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/count" type="array">
+      <obj_property name="ElementShortName">count[27:0]</obj_property>
+      <obj_property name="ObjectShortName">count[27:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/FAST_CLK_PERIOD" type="array">
+      <obj_property name="ElementShortName">FAST_CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FAST_CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/SLOW_CLK_PERIOD" type="array">
+      <obj_property name="ElementShortName">SLOW_CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOW_CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/regA" type="array">
+      <obj_property name="ElementShortName">regA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">regA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/serialadder_tb/regB" type="array">
+      <obj_property name="ElementShortName">regB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">regB[3:0]</obj_property>
+   </wvobject>
+</wave_config>
